@@ -1,0 +1,9 @@
+@import "@fontsource-variable/plus-jakarta-sans";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+  @apply max-w-4xl mx-auto mt-8 px-2 md:px-0;
+}
