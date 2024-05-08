@@ -4,6 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-main {
+main,
+nav {
   @apply max-w-4xl mx-auto mt-8 px-2 md:px-0;
 }
