@@ -50,9 +50,11 @@
         />
       </label>
     </form>
-    <div class="card-actions justify-center mt-6 gap-4">
-      <p>Already have an account?</p>
-      <a href="/login" class="link link-neutral">Login here</a>
+    <div class="card-actions justify-center mt-6">
+      <div class="w-full justify-between flex items-center">
+        <p>Already have an account?</p>
+        <a href="/login" class="link link-neutral">Login here</a>
+      </div>
       <button type="submit" class="btn btn-primary btn-wide">Register</button>
     </div>
   </div>

@@ -14,7 +14,7 @@
     <ul class="menu menu-horizontal px-1">
       <li>
         <details>
-          <summary> Parent </summary>
+          <summary>Menu</summary>
           <ul class="p-2 bg-base-100 rounded-t-none">
             <li><a href="/login">Login</a></li>
             <li><a href="/register">Register</a></li>

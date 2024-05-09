@@ -37,9 +37,11 @@
         />
       </label>
     </form>
-    <div class="card-actions justify-center mt-6 gap-4">
-      <p>Didn't have an account?</p>
-      <a href="/register" class="link link-neutral">Register here</a>
+    <div class="card-actions justify-center mt-6">
+      <div class="flex items-center justify-between w-full">
+        <p>Didn't have an account?</p>
+        <a href="/register" class="link link-neutral">Register here</a>
+      </div>
       <button type="submit" class="btn btn-primary btn-wide">Login</button>
     </div>
   </div>
