@@ -1,8 +1,40 @@
-<div class="flex flex-col items-center justify-center h-[50vh] text-center">
-  <h1 class="font-bold">Minimalistic Link Collection</h1>
-  <p class="max-w-lg mx-auto">
-    This is a minimalistic link collection. Just list the link name and url, you
-    can collect the links that you want to save.
-  </p>
-  <a class="btn btn-primary" href="/login">Get Started</a>
+<script>
+  import Icon from "@iconify/svelte";
+  export let data;
+
+  const links = data.links;
+  const socialMedias = data.socialMedias;
+</script>
+
+<div class="space-y-6">
+  {#if links}
+    {#each links as link}
+      <a
+        href={link.url}
+        class="border border-black rounded-lg flex items-center justify-center hover:underline hover:underline-offset-2 hover:scale-105 hover:transition-transform ease-in duration-300 hover:border-primary group hover:decoration-primary"
+        target="_blank"
+      >
+        <p class="font-semibold group-hover:text-primary">{link.name}</p>
+      </a>
+    {/each}
+  {/if}
+</div>
+
+<div class="flex items-center justify-center gap-4 mt-8">
+  {#if socialMedias}
+    {#each socialMedias as socialMedia}
+      <a
+        href={socialMedia.url}
+        target="_blank"
+        class="hover:scale-105 hover:transition-transform ease-in duration-300 group"
+      >
+        <Icon
+          icon={`bxl:${socialMedia.social_media_name}`}
+          width={32}
+          height={32}
+          class="group-hover:text-primary"
+        />
+      </a>
+    {/each}
+  {/if}
 </div>

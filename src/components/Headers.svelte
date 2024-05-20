@@ -8,19 +8,9 @@
 
 <nav class="navbar bg-base-100">
   <div class="flex-1">
-    <a href="/" class="text-lg font-bold">Link Collection</a>
-  </div>
-  <div class="flex-none">
-    <ul class="menu menu-horizontal px-1">
-      <li>
-        <details>
-          <summary>Menu</summary>
-          <ul class="p-2 bg-base-100 rounded-t-none">
-            <li><a href="/login">Login</a></li>
-            <li><a href="/register">Register</a></li>
-          </ul>
-        </details>
-      </li>
-    </ul>
+    <div class="flex items-center gap-1">
+      <img src="/icons8-link-48.png" alt="icon" width="24" height="24" />
+      <a href="/" class="text-lg font-bold">YehezGun's Links Collection</a>
+    </div>
   </div>
 </nav>
