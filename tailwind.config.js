@@ -13,7 +13,7 @@ export default {
   plugins: [
     require("daisyui"),
     require("@tailwindcss/typography"),
-    require("prettier-plugin-tailwindcss"),
+    "prettier-plugin-tailwindcss",
   ],
   daisyui: {
     themes: ["emerald"],
