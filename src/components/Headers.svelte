@@ -16,7 +16,7 @@
   />
   <meta
     property="og:image"
-    content="https://og-v2.yehezgun.com/api/og?title=Link%20Collections&desc=This%20is%20my%20personalized%20link%20collections%20made%20using%20Svelte%20Kit%20and%20Google%20Spreadsheet%20API&imgUrl=https://img.icons8.com/fluency/48/link.png&siteName=yehezgun.com"
+    content="https://og-v2.yehezgun.com/api/og?title=Link%20Collections&desc=This%20is%20my%20personalized%20link%20collections%20made%20using%20Svelte%20Kit%20and%20Google%20Spreadsheet%20API&imgUrl=https://img.icons8.com/fluency/48/link.png&siteName=links.yehezgun.com"
   />
 
   <!-- Twitter Meta Tags -->
@@ -35,7 +35,7 @@
   />
   <meta
     name="twitter:image"
-    content="https://og-v2.yehezgun.com/api/og?title=Link%20Collections&desc=This%20is%20my%20personalized%20link%20collections%20made%20using%20Svelte%20Kit%20and%20Google%20Spreadsheet%20API&imgUrl=https://img.icons8.com/fluency/48/link.png&siteName=yehezgun.com"
+    content="https://og-v2.yehezgun.com/api/og?title=Link%20Collections&desc=This%20is%20my%20personalized%20link%20collections%20made%20using%20Svelte%20Kit%20and%20Google%20Spreadsheet%20API&imgUrl=https://img.icons8.com/fluency/48/link.png&siteName=links.yehezgun.com"
   />
 </svelte:head>
 
